@@ -1,0 +1,8 @@
+printf
+printf
+scanf
+main
+int
+int
+int
+return
