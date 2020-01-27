@@ -1,0 +1,9 @@
+1.  S -> SSyy | A | ep
+    A -> AAzz | x | B
+    B -> BByy | y | ep
+
+2.  S->AB|CD
+    A->Aa|b
+    B->Bb|c
+    C->CCd|e 
+    D->Df|g
