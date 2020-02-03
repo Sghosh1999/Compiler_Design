@@ -1,0 +1,2 @@
+auto break  id   id while
+12 2 3 4 5

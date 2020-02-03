@@ -1,0 +1,3 @@
+auto break 
+bu kill while
+12 2 3 4 5
