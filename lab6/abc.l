@@ -18,6 +18,7 @@ int main()
     yy_scan_string(str);
     yylex();
     sum+=num;
+    count+=1;
     printf("%f",(float)sum/(float)count);
     return 0;
 }
