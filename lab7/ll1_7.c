@@ -2,22 +2,20 @@
 #include <string.h>
 
 char terminals[] = {'a','b','$'};
-char nonTerminals[] = {'S','A','B','C','D','E'};
+char nonTerminals[] = {'S','A','B','C'};
 
-char table[6][3][7] = { {"AB|CDE","AB|CDE",""},
+char table[4][3][7] = { {"AB","AB",""},
                         {"aA","b",""},
                         {"aB","b",""},
-                        {"aC","b",""},
-                        {"aD","b",""},
-                        {"aE","b",""}};
+                        {"aC","b","e"}};
 
-char stack[10], input[10], cs;
+char stack[100], input[100], cs;
 int top;
 
 int getTerminal(char c)
 {
     int i;
-    for (i = 0; i < 8; i++)
+    for (i = 0; i < 4; i++)
         if (terminals[i] == c)
             return i;
     return -1;
