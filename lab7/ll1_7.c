@@ -4,7 +4,7 @@
 char terminals[] = {'a','b','$'};
 char nonTerminals[] = {'S','A','B','C'};
 
-char table[4][3][7] = { {"AB","AB",""},
+char table[4][3][7] = { {"ABC","ABC",""},
                         {"aA","b",""},
                         {"aB","b",""},
                         {"aC","b","e"}};
