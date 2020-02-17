@@ -12,7 +12,7 @@ char table[5][8][4] = {{"TX", "","","","", "TX", "", ""},
 
 char stack[10], input[10], cs;
 int top;
-
+ 
 int getTerminal(char c)
 {
     int i;
@@ -109,6 +109,9 @@ int main()
         }
         printf("\n");
     }
-    printf("Valid string.\n");
+    if(input[cs] == '$')
+        printf("Valid string.\n");
+    else
+        printf("Invalid string.\n");
     return 0;
 }

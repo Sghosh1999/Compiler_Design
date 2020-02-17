@@ -109,6 +109,9 @@ int main()
         }
         printf("\n");
     }
-    printf("Valid string.\n");
+    if(input[cs] == '$')
+        printf("Valid string.\n");
+    else
+        printf("Invalid string.\n");
     return 0;
 }
